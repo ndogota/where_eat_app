@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantInfoActivity">
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/topLeftLayout"
+            android:layout_width="276dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TitleRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/DescriptionRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                tools:text="Description" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/topRightLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:contentDescription="@string/imagerestaurant"
+                app:srcCompat="@drawable/imagerestaurant" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:id="@+id/gradeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/GradeRestaurant"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    tools:text="0.0"
+                    tools:ignore="TextViewEdits" />
+
+                <TextView
+                    android:id="@+id/gradeOnFive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gradeOnFive"
+                    android:textColor="#F44336"
+                    android:textSize="18sp"
+                    tools:text=" / 5.0" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/midLayout"
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topLayout">
+
+        <LinearLayout
+            android:id="@+id/midLeftLayout"
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LocalizationText"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/localization"
+                android:textColor="#F44336"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/PhoneNumberText"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/phone_number"
+                android:textColor="#F44336"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/WebsiteText"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/website"
+                android:textColor="#F44336"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/HoursText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hours"
+                android:textColor="#F44336"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/midRightLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LocalizationRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                tools:text="Localization" />
+
+            <TextView
+                android:id="@+id/PhoneNumberRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                tools:text="Phone number" />
+
+            <TextView
+                android:id="@+id/WebsiteRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                tools:text="Website" />
+
+            <TextView
+                android:id="@+id/HoursRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                tools:text="Hours" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/midLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/menus"
+            android:textColor="#F44336"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="90dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

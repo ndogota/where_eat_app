@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "296060353250",
+    "firebase_url": "https://restaurantadvisorapp-1eaad.firebaseio.com",
+    "project_id": "restaurantadvisorapp-1eaad",
+    "storage_bucket": "restaurantadvisorapp-1eaad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296060353250:android:6958f3db9429fffbf7bcbb",
+        "android_client_info": {
+          "package_name": "com.example.restaurantadvisorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296060353250-hve85l9vt81c3k0l2aqntrtl2b6us3o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtFwnnE8ODjeC1y2CG3jvte6rj8Jz1DNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296060353250-hve85l9vt81c3k0l2aqntrtl2b6us3o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

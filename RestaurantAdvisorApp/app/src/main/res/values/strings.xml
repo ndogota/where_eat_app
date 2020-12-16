@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RestaurantAdvisorApp</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="age">Age</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="firstname">Firstname</string>
+    <string name="name">Name</string>
+    <string name="get_restaurants">Get Restaurants</string>
+    <string name="textview" />
+
+    <!-- errors validation -->
+    <string name="err_username">The username field is required.</string>
+    <string name="err_firstname">The firstname field is required.</string>
+    <string name="err_name">The name field is required.</string>
+    <string name="err_age">The age field is required.</string>
+    <string name="err_email">The email must be a valid email address.</string>
+    <string name="err_password">The password must be at least 6 characters.</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered">Not yet registered?</string>
+    <string name="_5">/5</string>
+    <string name="tonotto">TONOTTO</string>
+    <string name="logout">Logout</string>
+    <string name="menus" />
+    <string name="hours">Hours :</string>
+    <string name="website">Website :</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="localization">Localization :</string>
+    <string name="gradeOnFive" />
+    <string name="imagerestaurant" />
+    <string name="delete">Delete</string>
+</resources>
